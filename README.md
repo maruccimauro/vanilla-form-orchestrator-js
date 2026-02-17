@@ -1,5 +1,30 @@
 # Dynamic Form – JavaScript Form Orchestrator (Without HTML)
 
+![dynamic_form](doc/dynamic_form.gif)
+
+---
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Key Concepts](#key-concepts)
+- [JavaScript Concepts Demonstrated](#javascript-concepts-demonstrated)
+- [Features](#features)
+- [Project Structure](#project-structure)
+- [How It Works](#how-it-works)
+    - [1. No HTML Form Markup](#1-no-html-form-markup)
+    - [2. Form Configuration](#2-form-configuration)
+    - [3. Declarative Form Definition (Seed)](#3-declarative-form-definition-seed)
+    - [4. Validation Engine](#4-validation-engine)
+    - [5. Runtime Rendering & Validation Flow](#5-runtime-rendering--validation-flow)
+- [Usage](#usage)
+    - [Run Locally](#run-locally)
+    - [Why is a local server required?](#why-is-a-local-server-required)
+    - [Common Errors](#common-errors)
+    - [Styling](#styling)
+- [Purpose of This Repository](#purpose-of-this-repository)
+- [Author](#author)
+
 ---
 
 ## Overview
@@ -232,8 +257,6 @@ If the project is opened directly from the file system, you may encounter errors
 - `The requested module does not provide an export`
 
 Running the project through a local server resolves these issues.
-
-![dynamic_form](doc/dynamic_form.gif)
 
 ---
 
